@@ -21,14 +21,14 @@ const MainRoutes = ({ changeTheme, currentTheme }) => {
 
 const Sections = () => {
     return (
-        <Grid container sx={{width: '100%', height: '100%'}} display="flex" justifyContent="center">
-            <Grid item id="sectionOne" sx={{width: '100%', height: '100vh'}} display="flex" justifyContent="center" >
+        <Grid container sx={{width: '100%', height: '100%'}} display="flex" justifyContent="center" flexDirection="row">
+            <Grid item id="sectionOne" sx={{}} display="flex" justifyContent="center" >
                 <TextPanel />
             </Grid>
-            <Grid item id="sectionThree" sx={{width: '100%'}} display="flex" justifyContent="center">
+            <Grid item id="sectionThree" sx={{}} display="flex" justifyContent="center">
                 <Projects/>
             </Grid>
-            <Grid item id="sectionTwo" sx={{width: '100%'}} display="flex" justifyContent="center">
+            <Grid item id="sectionTwo" sx={{}} display="flex" justifyContent="center">
                 <AboutMe />
             </Grid>
         </Grid>

@@ -8,7 +8,7 @@ const boxShadowHandler = (currentTheme) => {
             boxShadow: '0 0 0 0 black',
             '&:hover': {
                 transform: 'translateY(-4px) translateX(-2px)',
-                boxShadow: '2px 5px 0 0 black',
+                boxShadow: '5px 5px 0 0 black',
                 border: '1px solid black',
             },
             '&:active': {
@@ -23,7 +23,7 @@ const boxShadowHandler = (currentTheme) => {
             boxShadow: '0 0 0 0 white',
             '&:hover': {
                 transform: 'translateY(-4px) translateX(-2px)',
-                boxShadow: '2px 5px 0 0 white',
+                boxShadow: '5px 5px 0 0 white',
                 border: '0.5px solid white',
             },
             '&:active': {

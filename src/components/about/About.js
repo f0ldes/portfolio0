@@ -4,13 +4,13 @@ import { SocialIcon } from 'react-social-icons'
 
 const AboutMe = () => {
     return (
-        <Box display="flex" flexDirection="column" justifyContent="center" sx={{ width: '40%', padding: 1, height: '100%' }} >
+        <Box display="flex" flexDirection="column" justifyContent="center" sx={{ padding: 1, height: '100vh' }} >
             <Box display="flex" justifyContent="center">
-                <Typography variant='h1' sx={{margin: 3}}>
-                    socials:
+                <Typography variant='h2' sx={{margin: 3}}>
+                    Contacts:
                 </Typography>
             </Box>
-            <Box sx={{ width: '100%' }} display="flex" justifyContent="center">
+            <Box sx={{ width: '100%', height: '' }} display="flex" justifyContent="center">
                 <Grid container display="flex" sx={{ padding: 1 }} justifyContent="center">
                     <Grid item sx={{margin: 3}}>
                         <SocialIcon network="github" url="https://github.com" />

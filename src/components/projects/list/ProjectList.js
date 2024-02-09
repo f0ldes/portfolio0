@@ -20,7 +20,7 @@ const projectTwo = {
 const ProjectElement = ({ project }) => {
     const theme = useTheme();
     return (
-        <Box sx={{marginY: '6rem', width: '100%', boxShadow: boxShadowHandler(theme)}} >
+        <Box sx={{ width: '100%', boxShadow: boxShadowHandler(theme)}} >
             <Grid container spacing={5} display="flex" flexDirection="row" justifyContent="space-between" sx={{padding: 1}}>
                 <Grid item xs={12} md={6}>
                     <img src={project.image} alt={project.title} style={{ 
@@ -48,10 +48,10 @@ const Projects = () => {
     const [projectList] = useState([projectOne, projectTwo]);
     
     return (
-        <Box sx={{ width: '65%', height: '100%' }} display="flex" justifyContent="center" flexDirection="column" >
-            <Box>
+        <Box sx={{ width: '65%', height: '100%' }} display="flex" justifyContent="" flexDirection="column" >
+            <Box sx={{height: '100%', width: '100%'}} display="flex" justifyContent="" flexDirection="column" >
                 {projectList && projectList.map((project, index) => (
-                    <Box sx={{marginY: 3}} key={index}> <ProjectElement project={project} /> </Box>  
+                    <Box  key={index} sx={{paddingY: 5}}> <ProjectElement project={project} /> </Box>  
                 ))}
             </Box>
         </Box>

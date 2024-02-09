@@ -33,7 +33,7 @@ code {
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid #2d2e32;
+    border: 1.5px solid;
     height: 35rem;
     position: relative;
     transition: all 1s ease-in-out;
